@@ -12,7 +12,9 @@
   width: 559px;
   padding: 10px;
   background-color: white;
-  position: absolute;
+  position: absolute; /*absolute는 조상 태그 중 position:relative가 없으면 body를 기준으로 가장 오른쪽에 붙는다. 
+  만약 있으면 그 relative를 기준으로 가장 오른쪽에 붙게된다.
+   */
   top: 380px;
   left: 0;
 }

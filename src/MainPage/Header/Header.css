@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
+  position: sticky; /* 스크롤을 내려도 붙어 내려옴.*/
   top: 0;
   /* position:sticky 와 top: 0; 는 같이 쓰는게 좋다. */
   background-color: white;
@@ -11,7 +11,7 @@
 }
 
 .header__icon {
-  object-fit: contain;
+  object-fit: contain; /* object-fit: 세밀하게 이미지를 자를 수 있음. contain: 가로세로 비율을 유지하면서 크기를 늘리고 줄임.;*/
   height: 100px;
   margin-left: 20px;
 }

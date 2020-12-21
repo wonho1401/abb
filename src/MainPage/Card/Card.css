@@ -2,14 +2,14 @@
   margin: 10px;
   /* border: 0px solid black; */
   border-radius: 10px;
-  overflow: hidden;
+  overflow: hidden; /*넘치는 컨텐츠 숨김.*/
   box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
-  transition: transform 0.1s ease-in;
+  transition: transform 0.1s ease-in; /* 변화하는과정에 대한 설정.*/
   cursor: pointer;
 }
 
 .card:hover {
-  transform: scale(1.07);
+  transform: scale(1.07); 
 }
 
 .card > img {
